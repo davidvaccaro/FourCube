@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{ed23c9d0-4d9a-4d49-8b18-3b7a3bf214bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{e54c8fc9-c5a8-45d6-81e5-dcc42e6795bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\tessdata">
+      <UniqueIdentifier>{c0571768-2053-46d1-a51c-1f6dbee768df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FourCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FourCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\liblept.dll">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="lib\liblept168.dll">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="lib\libtesseract302.dll">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="data\eng.DangAmbigs">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.freq-dawg">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.inttemp">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.normproto">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.pffmtable">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.unicharset">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.user-words">
+      <Filter>data\tessdata</Filter>
+    </None>
+    <None Include="data\eng.word-dawg">
+      <Filter>data\tessdata</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\libtesseract302.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\libtesseract302-static.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

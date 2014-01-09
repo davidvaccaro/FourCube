@@ -1,0 +1,8 @@
+/*
+* FourCube v@VERSION
+*
+* Copyright 2014 David Vaccaro
+* Released under the MIT license.
+* MIT-LICENSE.txt
+*
+*/
